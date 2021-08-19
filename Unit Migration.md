@@ -12,7 +12,9 @@
 8. Set new application id and select correct application template and edit it to reflect your requirements
     - set node type and outbound address to correct values (*No need to specify outbound address if you run only one ETHO node per VPS*)
 9. Save by clicking on the bottom-right button
-10. In left top menu between your machine id and your machine IP adress, click 3 dots and select `Push Configuration`
+10. In left top menu between your machine id and your machine IP address, click 3 dots and select `Push Configuration`
 11. Mouseover the 3 little stars next to your application and select `Setup` and wait until complete
 12. After successful setup mouseover the 3 little stars again and select `Start` and wait until complete
 14. Wait for sync. You can refresh app status by click the reload button next to the 3 little stars or in header of application section
+15. If everything works to your satisfaction remove old unit based nodes
+    - `unit prune [app id]` to remove a given app or `unit prune` to remove every unit app
